@@ -1,0 +1,133 @@
+{% extends 'myapp/base.html' %}
+{% load custom_filters %}
+
+{% block body %}
+
+{% load cache %}
+
+<div>
+
+    {% comment %}
+    Saved for future reference
+
+    {% cache 900 page_obj.number %}
+    {% endcomment %}
+
+
+    {% for item in page_obj %}
+
+    <div class="m-10 flex bg-pink w-1/2 mx-auto">
+
+        <div>
+            <img class="w-64 rounded-lg"
+                 src="{{ item.item_image }}"
+                 alt="{{ item.item_name }}">
+        </div>
+
+
+        <div class="mx-16">
+
+            <div class="text-xl font-bold">
+                {{ item.item_name|upper }}
+            </div>
+
+            <br>
+
+
+            <div>
+                {{ item.item_desc|lower|truncatechars:20 }}
+            </div>
+
+            <br>
+
+
+            <div>
+                {{ item.user_name }}
+            </div>
+
+
+            <div>
+                {{ item.created_at|date:"d M Y,H:i" }}
+                ({{ item.created_at|timesince }} ago)
+            </div>
+
+
+            <div class="text-blue-500 font-bold">
+
+                Original Price:
+                {{ item.item_price|currency }}
+
+                <div>
+                    Discounted price:
+                    {{ item.item_price|discount:10|currency }}
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="flex items-center ml-auto">
+
+            <a class="bg-red-500 text-white font-bold px-6 py-2 rounded-lg hover:bg-red-600 whitespace-nowrap"
+               href="{% url 'myapp:detail' item.id %}">
+                View Details
+            </a>
+
+        </div>
+
+    </div>
+
+    {% endfor %}
+
+
+    {% comment %}
+
+    Saved for future reference
+
+    {% endcache %}
+
+    {% endcomment %}
+
+</div>
+
+
+<div class="flex justify-center items-center gap-4 mt-8 mb-6">
+
+
+    {% if page_obj.has_previous %}
+
+        <a href="?page={{ page_obj.previous_page_number }}"
+           class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded-lg font-medium">
+
+            Previous
+
+        </a>
+
+    {% endif %}
+
+
+    <span class="text-gray-700 font-medium">
+
+        Page {{ page_obj.number }}
+        of
+        {{ page_obj.paginator.num_pages }}
+
+    </span>
+
+
+    {% if page_obj.has_next %}
+
+        <a href="?page={{ page_obj.next_page_number }}"
+           class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded-lg font-medium">
+
+            Next
+
+        </a>
+
+    {% endif %}
+
+
+</div>
+
+{% endblock %}

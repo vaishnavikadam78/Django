@@ -1,0 +1,3100 @@
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Fetching all items from the database
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 39, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 880, in do_for
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, 'for' statements should use the format 'for x in y': for cache 900 page_obj
+Fetching all items from the database
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 39, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 880, in do_for
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, 'for' statements should use the format 'for x in y': for cache 900 page_obj
+Fetching all items from the database
+Found 37 items
+Fetching an item with id: 98
+Internal Server Error: /myapp/98/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 57, in detail
+    item = Item.objects.get(id=id)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\db\models\query.py", line 639, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+myapp.models.Item.DoesNotExist: Item matching query does not exist.
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching an item with id: 98
+Internal Server Error: /myapp/98/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 57, in detail
+    item = Item.objects.get(id=id)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\db\models\query.py", line 639, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+myapp.models.Item.DoesNotExist: Item matching query does not exist.
+Fetching an item with id: 98
+Internal Server Error: /myapp/98/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 57, in detail
+    item = Item.objects.get(id=id)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\db\models\query.py", line 639, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+myapp.models.Item.DoesNotExist: Item matching query does not exist.
+Fetching an item with id: 98
+Internal Server Error: /myapp/98/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 57, in detail
+    item = Item.objects.get(id=id)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\db\models\query.py", line 639, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+myapp.models.Item.DoesNotExist: Item matching query does not exist.
+Fetching an item with id: 98
+Internal Server Error: /myapp/98/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 57, in detail
+    item = Item.objects.get(id=id)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\db\models\query.py", line 639, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+myapp.models.Item.DoesNotExist: Item matching query does not exist.
+Fetching an item with id: 98
+Internal Server Error: /myapp/98/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 57, in detail
+    item = Item.objects.get(id=id)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\db\models\query.py", line 639, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+myapp.models.Item.DoesNotExist: Item matching query does not exist.
+Fetching an item with id: 98
+Internal Server Error: /myapp/98/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 57, in detail
+    item = Item.objects.get(id=id)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\db\models\query.py", line 639, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+myapp.models.Item.DoesNotExist: Item matching query does not exist.
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching an item with id: 98
+Not Found: /myapp/98/
+Fetching an item with id: 9
+Item found Falafel Wrap ($6)
+Fetching an item with id: 9
+Item found Falafel Wrap ($6)
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching an item with id: 9
+Item found Falafel Wrap ($6)
+Fetching an item with id: 9
+Item found Falafel Wrap ($6)
+Fetching all items from the database
+User vaishu requested item list from None
+Found 37 items
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User vaishu requested item list from 127.0.0.1
+Found 37 items
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DC2117A0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DC2133F0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DC211830> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DD31B6C0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DD31B990> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DD31B990> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DD31BC90> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DD31BCF0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DD31BE10> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DD331110> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DD330720> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DD331470> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DD331B90> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DD3324C0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 894, in do_for
+    nodelist_loop = parser.parse(
+        (
+    ...<2 lines>...
+        )
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 556, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 554, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 676, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 772, in __init__
+    self.args_check(filter_name, filter_func, args)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 835, in args_check
+    raise TemplateSyntaxError(
+        "%s requires %d arguments, %d provided" % (name, alen - dlen, plen)
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, truncatechars requires 2 arguments, 1 provided
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DD332490> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DBBFDD40> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DBDBF0C0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DBDBEC40> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DC2BC0F0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DC2BFBD0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DC2BD8F0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 894, in do_for
+    nodelist_loop = parser.parse(
+        (
+    ...<2 lines>...
+        )
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 556, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 554, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 676, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 776, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, Could not parse the remainder: ' M Y' from 'item.created_at |date:D M Y'
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DC2BEC40> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 894, in do_for
+    nodelist_loop = parser.parse(
+        (
+    ...<2 lines>...
+        )
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 556, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 554, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 676, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 771, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 682, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, Invalid filter: 'Date'
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DC0A8ED0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 894, in do_for
+    nodelist_loop = parser.parse(
+        (
+    ...<2 lines>...
+        )
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 556, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 554, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 676, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 776, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, Could not parse the remainder: ' M Y' from 'item.created_at |date:D M Y'
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DD404690> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DD3300C0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 894, in do_for
+    nodelist_loop = parser.parse(
+        (
+    ...<2 lines>...
+        )
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 556, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 554, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 676, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 776, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, Could not parse the remainder: ' M Y' from 'item.created_at|date:D M Y'
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DC2129A0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DC210CF0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DC212C10> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DC210CF0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 894, in do_for
+    nodelist_loop = parser.parse(
+        (
+    ...<2 lines>...
+        )
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 556, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 554, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 676, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 776, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, Could not parse the remainder: 'time:"H:i"' from 'item.created_at|date:"d M Y"time:"H:i"'
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DBDBFB40> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 894, in do_for
+    nodelist_loop = parser.parse(
+        (
+    ...<2 lines>...
+        )
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 556, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 554, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 676, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 776, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, Could not parse the remainder: ' ,time:"H:i"' from 'item.created_at|date:"d M Y" ,time:"H:i"'
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DBDBF570> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 894, in do_for
+    nodelist_loop = parser.parse(
+        (
+    ...<2 lines>...
+        )
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 556, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 554, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 676, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 776, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, Could not parse the remainder: ',"H:i"' from 'item.created_at|date:"d M Y","H:i"'
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DBDBEB50> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 894, in do_for
+    nodelist_loop = parser.parse(
+        (
+    ...<2 lines>...
+        )
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 556, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 554, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 676, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 776, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, Could not parse the remainder: 'H:i"' from 'item.created_at|date:"d M Y,"H:i"'
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DBDBFCF0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DC210D20> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DC212940> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000229DD331AD0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1067, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'filters'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1129, in load
+    lib = find_library(parser, name)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1069, in find_library
+    raise TemplateSyntaxError(
+    ...<5 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, 'filters' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+auth
+cache
+i18n
+l10n
+log
+static
+tz
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x000002DD311CAAF0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1067, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'filters'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1129, in load
+    lib = find_library(parser, name)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1069, in find_library
+    raise TemplateSyntaxError(
+    ...<5 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, 'filters' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+auth
+cache
+i18n
+l10n
+log
+static
+tz
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x000002DD3116FC30> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1067, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'filters'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1129, in load
+    lib = find_library(parser, name)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1069, in find_library
+    raise TemplateSyntaxError(
+    ...<5 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, 'filters' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+auth
+cache
+i18n
+l10n
+log
+static
+tz
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x000002DD3116C2A0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1067, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'filters'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1129, in load
+    lib = find_library(parser, name)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1069, in find_library
+    raise TemplateSyntaxError(
+    ...<5 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, 'filters' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+auth
+cache
+i18n
+l10n
+log
+static
+tz
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x000002DD31225E00> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1067, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: "'filters'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1129, in load
+    lib = find_library(parser, name)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1069, in find_library
+    raise TemplateSyntaxError(
+    ...<5 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, ''filters'' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+auth
+cache
+i18n
+l10n
+log
+static
+tz
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x000002DD311C8660> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1067, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'filters'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1129, in load
+    lib = find_library(parser, name)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1069, in find_library
+    raise TemplateSyntaxError(
+    ...<5 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, 'filters' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+auth
+cache
+i18n
+l10n
+log
+static
+tz
+D:\Userl\Downloads\Django\mysite\myapp\templatetags\custom_filters.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x000002A7F117F270> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1067, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'filters'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1129, in load
+    lib = find_library(parser, name)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1069, in find_library
+    raise TemplateSyntaxError(
+    ...<5 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, 'filters' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+auth
+cache
+custom_filters
+i18n
+l10n
+log
+static
+tz
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x000001F848CB19E0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1067, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'filters'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1129, in load
+    lib = find_library(parser, name)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1069, in find_library
+    raise TemplateSyntaxError(
+    ...<5 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, 'filters' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+auth
+cache
+custom_filters
+i18n
+l10n
+log
+static
+tz
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x000001F848D1C300> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1067, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: '{%'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1129, in load
+    lib = find_library(parser, name)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 1069, in find_library
+    raise TemplateSyntaxError(
+    ...<5 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, '{%' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+auth
+cache
+custom_filters
+i18n
+l10n
+log
+static
+tz
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x000001F849DB4300> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x000001F849DB7E70> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching an item with id: 11
+Item found French Fries ($3)
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x000001F849DB41B0> vaishu requested item list from 127.0.0.1
+Found 37 items
+D:\Userl\Downloads\Django\mysite\myapp\templatetags\custom_filters.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x000002D0CEB1E070> vaishu requested item list from 127.0.0.1
+Found 37 items
+D:\Userl\Downloads\Django\mysite\myapp\templatetags\custom_filters.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x000002391D146D60> vaishu requested item list from 127.0.0.1
+Found 37 items
+D:\Userl\Downloads\Django\mysite\myapp\templatetags\custom_filters.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\templatetags\custom_filters.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\templatetags\custom_filters.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000259C2A36FA0> vaishu requested item list from 127.0.0.1
+Found 37 items
+D:\Userl\Downloads\Django\mysite\myapp\templatetags\custom_filters.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x000001EE27C01800> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching an item with id: 14
+Item found Ramen Bowl ($10)
+D:\Userl\Downloads\Django\mysite\myapp\templatetags\custom_filters.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\templatetags\custom_filters.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000018E3AEC1CE0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 894, in do_for
+    nodelist_loop = parser.parse(
+        (
+    ...<2 lines>...
+        )
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 556, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 554, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 676, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 771, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 682, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, Invalid filter: 'discount'
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000018E3A8F8D20> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 894, in do_for
+    nodelist_loop = parser.parse(
+        (
+    ...<2 lines>...
+        )
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 556, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 554, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 676, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 771, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 682, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, Invalid filter: 'discount'
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000018E3AFD6550> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 894, in do_for
+    nodelist_loop = parser.parse(
+        (
+    ...<2 lines>...
+        )
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 556, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 554, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 676, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 771, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 682, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, Invalid filter: 'discount'
+D:\Userl\Downloads\Django\mysite\myapp\templatetags\custom_filters.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x000002037A9C2CA0> vaishu requested item list from 127.0.0.1
+Found 37 items
+D:\Userl\Downloads\Django\mysite\myapp\templatetags\custom_filters.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000182EEA2E970> vaishu requested item list from 127.0.0.1
+Found 37 items
+D:\Userl\Downloads\Django\mysite\myapp\templatetags\custom_filters.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000016065D45800> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000016065CCDE30> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000160658EF300> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000016065E1D2C0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000016065E1C480> vaishu requested item list from 127.0.0.1
+Found 37 items
+Internal Server Error: /myapp/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in index
+    return render(request, "myapp/index.html", context)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\defaulttags.py", line 894, in do_for
+    nodelist_loop = parser.parse(
+        (
+    ...<2 lines>...
+        )
+    )
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 556, in parse
+    raise self.error(token, e)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 554, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 676, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\template\base.py", line 776, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\index.html, Could not parse the remainder: '"' from 'item.item_price|discount:10"'
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000016065E1C300> vaishu requested item list from 127.0.0.1
+Found 37 items
+D:\Userl\Downloads\Django\mysite\myapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\templatetags\custom_filters.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x000002A0AAD96FA0> vaishu requested item list from 127.0.0.1
+Found 37 items
+D:\Userl\Downloads\Django\mysite\myapp\templatetags\custom_filters.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x000002180AACABE0> vaishu requested item list from 127.0.0.1
+Found 37 items
+D:\Userl\Downloads\Django\mysite\myapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\templatetags\custom_filters.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x000001EF5515DBC0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching an item with id: 15
+Item found Greek Salad ($7)
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x000001EF551F3BA0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598F1DEC0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598E8BA80> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598ED4C30> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598ED64C0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598ED5FE0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching an item with id: 25
+Item found French Fries ($99)
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598ED55F0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598F066A0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598F05D70> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598F05800> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598ED6A90> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598ED40C0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598ED62B0> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598ED7810> vaishu requested item list from 127.0.0.1
+Found 37 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598E8B240> vaishu requested item list from 127.0.0.1
+Found 37 items
+Not Found: /myapp/additem/
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598EF7CF0> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598EF5FE0> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598EF6B50> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598EF7960> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598EF5AA0> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598EF7EA0> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598EF7870> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598EF52C0> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598EF4CF0> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021598EF7DB0> vaishu requested item list from 127.0.0.1
+Found 38 items
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000220732771B0> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching an item with id: 37
+Item found vanilla Ice Cream ($4.00)
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000220731F1350> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000220731F39F0> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000220731E3270> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000220731E2DC0> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000220731E2880> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000220731E2280> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000220731F1B60> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000220731F2FD0> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching an item with id: 38
+Item found kosimbir ($99.00)
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000220731B1950> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000220731B0540> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000220731B08A0> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000220731B20D0> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000220731B2CA0> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000220731B26A0> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000022073274900> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000220731B12F0> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000220731B1D40> vaishu requested item list from 127.0.0.1
+Found 38 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000220731B1B00> vaishu requested item list from 127.0.0.1
+Found 38 items
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021F286C6820> vaishu requested item list from 127.0.0.1
+Found 38 items
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000022F9707E3D0> vaishu requested item list from 127.0.0.1
+Found 39 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000022F9707FEA0> vaishu requested item list from 127.0.0.1
+Found 39 items
+Fetching an item with id: 10
+Item found Pad Thai ($10.00)
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000022F96F220D0> vaishu requested item list from 127.0.0.1
+Found 39 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000022F96F22340> vaishu requested item list from 127.0.0.1
+Found 39 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000022F96F22610> vaishu requested item list from 127.0.0.1
+Found 39 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000022F96F20150> vaishu requested item list from 127.0.0.1
+Found 39 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000022F96F20ED0> vaishu requested item list from 127.0.0.1
+Found 39 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000022F9714BE10> vaishu requested item list from 127.0.0.1
+Found 39 items
+D:\Userl\Downloads\Django\mysite\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000020D9D2E7EA0> vaishu requested item list from 127.0.0.1
+Found 39 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000020D9D232C40> vaishu requested item list from 127.0.0.1
+Found 40 items
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000025452512D30> vaishu requested item list from 127.0.0.1
+Found 40 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000025452831A70> vaishu requested item list from 127.0.0.1
+Found 41 items
+D:\Userl\Downloads\Django\mysite\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000026299698840> vaishu requested item list from 127.0.0.1
+Found 41 items
+Internal Server Error: /myapp/add/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 83, in create_item
+    return render(request, 'myapp/item_form.html', context)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 556, in parse
+    raise self.error(token, e)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 554, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 676, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 776, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\item_form.html, Could not parse the remainder: '['item_price']' from 'form.errors['item_price']'
+Internal Server Error: /myapp/add/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 83, in create_item
+    return render(request, 'myapp/item_form.html', context)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 556, in parse
+    raise self.error(token, e)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 554, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 676, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 776, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\item_form.html, Could not parse the remainder: '['item_price']' from 'form.errors['item_price']'
+D:\Userl\Downloads\Django\mysite\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp/add/
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 83, in create_item
+    return render(request, 'myapp/item_form.html', context)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 556, in parse
+    raise self.error(token, e)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 554, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 676, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\dell\AppData\Roaming\Python\Python314\site-packages\django\template\base.py", line 776, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Userl\Downloads\Django\mysite\myapp\templates\myapp\item_form.html, Could not parse the remainder: '['item_price']' from 'form.errors['item_price']'
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x000002C933089BF0> vaishu requested item list from 127.0.0.1
+Found 42 items
+D:\Userl\Downloads\Django\mysite\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000014688632310> vaishu requested item list from 127.0.0.1
+Found 42 items
+D:\Userl\Downloads\Django\mysite\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden (CSRF token missing.): /myapp/add/
+Forbidden (CSRF token missing.): /myapp/add/
+Forbidden (CSRF token missing.): /myapp/add/
+Forbidden (CSRF token missing.): /myapp/add/
+Not Found: /favicon.ico
+Forbidden (CSRF token missing.): /myapp/add/
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden (CSRF token missing.): /myapp/add/
+Forbidden (CSRF token missing.): /myapp/add/
+Forbidden (CSRF token missing.): /myapp/add/
+Watching for file changes with StatReloader
+Forbidden (CSRF token missing.): /myapp/add/
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021993F79B30> vaishu requested item list from 127.0.0.1
+Found 43 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021993E980F0> vaishu requested item list from 127.0.0.1
+Found 44 items
+Forbidden (CSRF token missing.): /myapp/add/
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /favicon.ico
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021993E98030> AnonymousUser requested item list from 127.0.0.1
+Found 45 items
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021993E9AC70> AnonymousUser requested item list from 127.0.0.1
+Found 45 items
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021993E2D9B0> AnonymousUser requested item list from 127.0.0.1
+Found 45 items
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021993E2E4F0> AnonymousUser requested item list from 127.0.0.1
+Found 45 items
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021993E2E340> AnonymousUser requested item list from 127.0.0.1
+Found 45 items
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021993E2FAE0> vaishu requested item list from 127.0.0.1
+Found 46 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000021993E2E880> vaishu requested item list from 127.0.0.1
+Found 46 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000219941A1AA0> vaishu requested item list from 127.0.0.1
+Found 46 items
+Fetching an item with id: 46
+Item found dodka ($20.00)
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000219941A2C40> vaishu requested item list from 127.0.0.1
+Found 46 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000219941A33F0> vaishu requested item list from 127.0.0.1
+Found 46 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000219941A39C0> vaishu requested item list from 127.0.0.1
+Found 46 items
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x00000219941A2C10> vaishu requested item list from 127.0.0.1
+Found 46 items
+Watching for file changes with StatReloader
+Fetching all items from the database
+User<built-in method isoformat of datetime.datetime object at 0x0000024FF10F9EF0> vaishu requested item list from 127.0.0.1
+Found 46 items
+Not Found: /favicon.ico
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /users/logint/
+Fetching all items from the database
+User2026-08-27T09:08:01.923632+00:00 vaishu requested item list from 127.0.0.1
+Found 46 items
+Not Found: /myapp/items-json/
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /myapp/items.api/
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /myapp/items.api/
+Not Found: /myapp/items.api/
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /myapp/api/items-api/
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /myapp/api/items-api/
+Not Found: /myapp/api/items-api/
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /myapp/api/items-api/
+Not Found: /myapp/api/items-api/
+Not Found: /myapp/items-api/
+Not Found: /myapp/items-api/
+Not Found: /myapp/items-api/
+Not Found: /myapp/items-api/
+Not Found: /myapp/items-api/
+Not Found: /myapp/items-api/
+Not Found: /myapp/items-api/
+Not Found: /myapp/items-api/
+Not Found: /myapp/items-api/
+Not Found: /myapp/items-api/
+Not Found: /myapp/items-api/
+Not Found: /myapp/items-api/
+Not Found: /myapp/items-api/
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /myapp/api/items/
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Bad Request: /myapp/api/items/
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /myapp/items-api/
+Not Found: /myapp/items-api/
+Not Found: /myapp/items-api/
+Not Found: /myapp/items-api/
+Not Found: /myapp/items/api/
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp/api/items/15/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\rest_framework\views.py", line 526, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\rest_framework\views.py", line 474, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\rest_framework\views.py", line 485, in raise_uncaught_exception
+    raise exc
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\rest_framework\views.py", line 523, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in item_detail_api
+    item = Item.objects.get(pk=pk)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\db\models\query.py", line 639, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+myapp.models.Item.DoesNotExist: Item matching query does not exist.
+Internal Server Error: /myapp/api/items/15/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\rest_framework\views.py", line 526, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\rest_framework\views.py", line 474, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\rest_framework\views.py", line 485, in raise_uncaught_exception
+    raise exc
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\rest_framework\views.py", line 523, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in item_detail_api
+    item = Item.objects.get(pk=pk)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\db\models\query.py", line 639, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+myapp.models.Item.DoesNotExist: Item matching query does not exist.
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp/api/items/16/
+Traceback (most recent call last):
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\rest_framework\views.py", line 526, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\rest_framework\views.py", line 474, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\rest_framework\views.py", line 485, in raise_uncaught_exception
+    raise exc
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\rest_framework\views.py", line 523, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Userl\Downloads\Django\mysite\myapp\views.py", line 43, in item_detail_api
+    item = Item.objects.get(pk=pk)
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Userl\Downloads\Django\env\Lib\site-packages\django\db\models\query.py", line 639, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+myapp.models.Item.DoesNotExist: Item matching query does not exist.
+Not Found: /myapp/api/items/
+Not Found: /myapp/api/items/
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /api/items/18
+Not Found: /favicon.ico
+Not Found: /api/items/18/
+Not Found: /api/items/18/
+Not Found: /api/items/19/
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /api/items/
+Not Found: /favicon.ico
+Not Found: /myapp/admin/
+Watching for file changes with StatReloader
+Forbidden: /myapp/api/items/
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Unsupported Media Type: /myapp/api/items/
+Unsupported Media Type: /myapp/api/items/
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /myapp/items/3/
+Fetching an item with id: 3
+Item found Margherita Pizza ($8.00)
+Fetching an item with id: 3
+Item found Margherita Pizza ($8.00)
+Fetching an item with id: 3
+Item found Margherita Pizza ($8.00)
+Fetching an item with id: 3
+Item found Margherita Pizza ($8.00)
+Fetching an item with id: 3
+Item found Margherita Pizza ($8.00)
+Fetching an item with id: 3
+Item found Margherita Pizza ($8.00)
+Fetching an item with id: 51
+Item found Pizza added by insonia 78888 ($8.00)
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\mysite\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /myapp/api/token/
+Bad Request: /myapp/api/token/
+Unauthorized: /myapp/api/token/
+Unauthorized: /myapp/api/token/
+Unauthorized: /myapp/api/token/
+Watching for file changes with StatReloader
+Unauthorized: /myapp/api/token/
+Watching for file changes with StatReloader
+Bad Request: /myapp/api/items/
+Bad Request: /myapp/api/items/
+Bad Request: /myapp/api/items/
+Not Found: /myapp/api/tokens/
+Not Found: /myapp/api/tokens/
+Not Found: /myapp/api/tokens/
+Not Found: /myapp/api/tokens/
+Not Found: /myapp/api/item/
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /myapp/api/items/
+Unauthorized: /myapp/api/items/
+Not Found: /myapp/api/tokens/
+Method Not Allowed: /myapp/api/token/
+Method Not Allowed: /myapp/api/token/
+Bad Request: /myapp/api/token/
+Unauthorized: /myapp/api/items/
+Unauthorized: /myapp/api/items/
+Unauthorized: /myapp/api/items/
+Unauthorized: /myapp/api/items/
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Unauthorized: /myapp/api/items/
+Unauthorized: /myapp/api/items/
+Unauthorized: /myapp/api/items/
+Watching for file changes with StatReloader
+Unauthorized: /myapp/api/items/
+Unauthorized: /myapp/api/items/
+Unauthorized: /myapp/api/items/
+Unauthorized: /myapp/api/items/
+Unauthorized: /myapp/api/items/
+Unauthorized: /myapp/api/items/
+Unauthorized: /myapp/api/items/
+Watching for file changes with StatReloader
+Unauthorized: /myapp/api/items/
+Unauthorized: /myapp/api/items/
+Bad Request: /myapp/api/items/
+Unauthorized: /myapp/api/items/
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /myapp/api/items/
+D:\Userl\Downloads\Django\mysite\myapp\permissions.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /myapp/api/items/53/
+D:\Userl\Downloads\Django\mysite\myapp\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /myapp/api/items/
+Unauthorized: /myapp/api/items/
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\serializers.py changed, reloading.
+D:\Userl\Downloads\Django\mysite\myapp\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Unauthorized: /myapp/api/items/
+Bad Request: /myapp/api/items/
+Bad Request: /myapp/api/items/
+D:\Userl\Downloads\Django\mysite\myapp\serializers.py changed, reloading.
+D:\Userl\Downloads\Django\mysite\myapp\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Unauthorized: /myapp/api/items/
+Bad Request: /myapp/api/items/
+D:\Userl\Downloads\Django\mysite\myapp\serializers.py changed, reloading.
+D:\Userl\Downloads\Django\mysite\myapp\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Bad Request: /myapp/api/items/
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Bad Request: /myapp/api/items/
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Unauthorized: /myapp/api/items/
+Too Many Requests: /myapp/api/items/
+Too Many Requests: /myapp/api/items/
+Too Many Requests: /myapp/api/items/
+Unauthorized: /myapp/api/items/
+Unauthorized: /myapp/api/items/
+D:\Userl\Downloads\Django\mysite\myapp\models.py changed, reloading.
+D:\Userl\Downloads\Django\mysite\myapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\models.py changed, reloading.
+D:\Userl\Downloads\Django\mysite\myapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /myapp/items/
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+D:\Userl\Downloads\Django\mysite\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Importing AvifImagePlugin
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Unauthorized: /myapp/api/items/
+Unauthorized: /myapp/api/items/
+Unauthorized: /myapp/api/items/
+Unauthorized: /myapp/api/items/
+Unauthorized: /myapp/api/items/
+Bad Request: /myapp/api/items/
+D:\Userl\Downloads\Django\mysite\myapp\admin.py changed, reloading.
+D:\Userl\Downloads\Django\mysite\myapp\admin.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\models.py changed, reloading.
+D:\Userl\Downloads\Django\mysite\myapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\serializers.py changed, reloading.
+D:\Userl\Downloads\Django\mysite\myapp\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\serializers.py changed, reloading.
+D:\Userl\Downloads\Django\mysite\myapp\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\mysite\urls.py changed, reloading.
+D:\Userl\Downloads\Django\mysite\mysite\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /myapp/api/orders/swagger-ui/
+Not Found: /myapp/api/schema/swagger-ui/
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+D:\Userl\Downloads\Django\mysite\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /myapp/api/schema/swagger-ui/
+Not Found: /myapp/api/schema/swagger-ui/
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+D:\Userl\Downloads\Django\mysite\mysite\settings.py changed, reloading.
+Watching for file changes with StatReloader

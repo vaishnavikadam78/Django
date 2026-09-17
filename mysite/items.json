@@ -1,0 +1,288 @@
+[
+{
+    "model": "myapp.item",
+    "pk": 1,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Methi Bhaji",
+        "item_desc": "favourti",
+        "item_price": 25,
+        "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiUCvmYVCMaC6bIvajariDoMP9WKfocdveC7q0UU74XA&s=10",
+        "is_available": true,
+        "created_at": "2026-08-20T10:49:21.284Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 2,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Pani Puri",
+        "item_desc": "hoo",
+        "item_price": 170,
+        "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxTRzuUX9QqEDNe9S__stCfebxdKUUIYqT9S5mvy-MNw&s=10",
+        "is_available": true,
+        "created_at": "2026-08-20T10:54:16.599Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 3,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Margherita Pizza",
+        "item_desc": "Classic Italian pizza with mozzarella and tomato",
+        "item_price": 8,
+        "item_image": "https://placehold.co/200x200",
+        "is_available": true,
+        "created_at": "2026-08-20T11:34:16.540Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 4,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Cheeseburger",
+        "item_desc": "Beef patty with cheese, lettuce and tomato",
+        "item_price": 6,
+        "item_image": "https://placehold.co/200x200",
+        "is_available": true,
+        "created_at": "2026-08-20T11:34:16.545Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 5,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Caesar Salad",
+        "item_desc": "Crisp romaine with parmesan and croutons",
+        "item_price": 5,
+        "item_image": "https://placehold.co/200x200",
+        "is_available": true,
+        "created_at": "2026-08-20T11:34:16.549Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 6,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Chicken Tacos",
+        "item_desc": "Soft tortillas with grilled chicken and salsa",
+        "item_price": 7,
+        "item_image": "https://placehold.co/200x200",
+        "is_available": true,
+        "created_at": "2026-08-20T11:34:16.552Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 7,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Sushi Platter",
+        "item_desc": "Assorted rolls with tuna, salmon and avocado",
+        "item_price": 12,
+        "item_image": "https://placehold.co/200x200",
+        "is_available": true,
+        "created_at": "2026-08-20T11:34:16.556Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 8,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Pasta Alfredo",
+        "item_desc": "Creamy white sauce pasta with mushrooms",
+        "item_price": 9,
+        "item_image": "https://placehold.co/200x200",
+        "is_available": true,
+        "created_at": "2026-08-20T11:34:16.559Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 9,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Falafel Wrap",
+        "item_desc": "Middle Eastern wrap with chickpea patties",
+        "item_price": 6,
+        "item_image": "https://placehold.co/200x200",
+        "is_available": true,
+        "created_at": "2026-08-20T11:34:16.562Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 10,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Pad Thai",
+        "item_desc": "Thai stir-fried noodles with peanuts and veggies",
+        "item_price": 10,
+        "item_image": "https://placehold.co/200x200",
+        "is_available": true,
+        "created_at": "2026-08-20T11:34:16.565Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 11,
+    "fields": {
+        "user_name": 1,
+        "item_name": "French Fries",
+        "item_desc": "Crispy golden potato fries with salt",
+        "item_price": 3,
+        "item_image": "https://placehold.co/200x200",
+        "is_available": true,
+        "created_at": "2026-08-20T11:34:16.568Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 12,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Veggie Burger",
+        "item_desc": "Plant-based patty with lettuce and tomato",
+        "item_price": 6,
+        "item_image": "https://placehold.co/200x200",
+        "is_available": true,
+        "created_at": "2026-08-20T11:34:16.571Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 13,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Butter Chicken",
+        "item_desc": "Indian-style chicken in creamy tomato sauce",
+        "item_price": 11,
+        "item_image": "https://placehold.co/200x200",
+        "is_available": true,
+        "created_at": "2026-08-20T11:34:16.574Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 14,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Ramen Bowl",
+        "item_desc": "Japanese noodle soup with egg and pork",
+        "item_price": 10,
+        "item_image": "https://placehold.co/200x200",
+        "is_available": true,
+        "created_at": "2026-08-20T11:34:16.577Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 15,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Greek Salad",
+        "item_desc": "Feta cheese, olives, cucumber and tomatoes",
+        "item_price": 7,
+        "item_image": "https://placehold.co/200x200",
+        "is_available": true,
+        "created_at": "2026-08-20T11:34:16.580Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 16,
+    "fields": {
+        "user_name": 1,
+        "item_name": "BBQ Ribs",
+        "item_desc": "Slow cooked pork ribs with barbecue sauce",
+        "item_price": 14,
+        "item_image": "https://placehold.co/200x200",
+        "is_available": true,
+        "created_at": "2026-08-20T11:34:16.584Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 17,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Shawarma",
+        "item_desc": "Grilled meat wrap with garlic sauce",
+        "item_price": 8,
+        "item_image": "https://placehold.co/200x200",
+        "is_available": true,
+        "created_at": "2026-08-20T11:34:16.587Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 18,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Pancakes",
+        "item_desc": "Stack of fluffy pancakes with maple syrup",
+        "item_price": 5,
+        "item_image": "https://placehold.co/200x200",
+        "is_available": true,
+        "created_at": "2026-08-20T11:34:16.590Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 19,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Mutton Biryani",
+        "item_desc": "Fragrant rice with spiced mutton",
+        "item_price": 12,
+        "item_image": "https://placehold.co/200x200",
+        "is_available": true,
+        "created_at": "2026-08-20T11:34:16.594Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 20,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Spring Rolls",
+        "item_desc": "Crispy rolls stuffed with vegetables",
+        "item_price": 4,
+        "item_image": "https://placehold.co/200x200",
+        "is_available": true,
+        "created_at": "2026-08-20T11:34:16.597Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 21,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Fish and Chips",
+        "item_desc": "British-style fried fish with fries",
+        "item_price": 9,
+        "item_image": "https://placehold.co/200x200",
+        "is_available": true,
+        "created_at": "2026-08-20T11:34:16.600Z"
+    }
+},
+{
+    "model": "myapp.item",
+    "pk": 22,
+    "fields": {
+        "user_name": 1,
+        "item_name": "Ice Cream Sundae",
+        "item_desc": "Vanilla ice cream topped with chocolate sauce",
+        "item_price": 4,
+        "item_image": "https://placehold.co/200x200",
+        "is_available": true,
+        "created_at": "2026-08-20T11:34:16.603Z"
+    }
+}
+]
