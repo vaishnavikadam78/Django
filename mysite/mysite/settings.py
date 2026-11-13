@@ -15,9 +15,9 @@ load_dotenv(BASE_DIR / ".env")
 
 
 # Quick-start development settings
-SECRET_KEY = 'django-insecure-y%qt5p!jakh(n@*8e_juiwmvu=en2n+&egjnj58u8)5xx#lx@3'
+SECRET_KEY = os.getenv("SECRET_KEY")
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 

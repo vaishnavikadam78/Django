@@ -20,3 +20,11 @@ __pycache__/
 # User Uploads & Media Folders
 pictures/
 profile_pics/
+
+
+# Django cache files
+cache/
+*.djcache
+mysite/myapp/cache/
+__pycache__/
+*.py[cod]
