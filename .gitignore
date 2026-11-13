@@ -28,3 +28,10 @@ cache/
 mysite/myapp/cache/
 __pycache__/
 *.py[cod]
+
+# Logs
+*.log
+
+.vscode/
+.DS_Store
+db.sqlite3
